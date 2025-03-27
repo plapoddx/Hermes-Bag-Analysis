@@ -21,6 +21,7 @@ This is a **work in progress**, currently in the early stages of data exploratio
 ## Technologies Used
 
 - Python
+- Excel
 - PySpark (for large-scale data handling)
 - Pandas (for manipulation and cleaning)
 - Matplotlib (for visualization, upcoming)
