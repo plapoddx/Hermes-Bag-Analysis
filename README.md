@@ -1,4 +1,4 @@
-# Hermès Handbag Price Analysis
+# 👜 Hermès Handbag Price Analysis
 
 This project analyzes the global pricing of Hermès’ most iconic handbags using user-submitted data from the **PurseForum**. The data consists of handbag prices collected at the end of each year, shared by users across various countries.
 
@@ -16,7 +16,7 @@ This is a **work in progress**, currently in the early stages of data exploratio
 
 - **Forum**: [PurseForum](https://forum.purseblog.com/)
 - **Data Type**: User-reported Hermès handbag prices
-- **Timeframe**: Year-end posts (various years)
+- **Timeframe**: Year-end posts (2019-2024)
 
 ## Technologies Used
 
