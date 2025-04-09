@@ -41,7 +41,7 @@ HERMES-BAG-ANALYSIS/
 - PostgreSQL (data storage)
 - Matplotlib / Seaborn (for visualizations)
 
-🧱 Modularized Project Structure
+## 🧱 Modularized Project Structure
 
 This project was refactored from a monolithic Jupyter notebook into modular Python scripts using a separation of concerns approach. Each core function (e.g., data loading, transformation, currency conversion, and database ingestion) is now handled by its own file, improving reusability, readability, and maintainability.
 
