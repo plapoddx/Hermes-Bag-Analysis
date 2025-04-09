@@ -1,4 +1,4 @@
-Bag_Type,Date,Material_Style,Price,Currency
+Bag_Type,Date_Purchased,Material_Style,Price,Currency
 Kelly 25,1/2/24,Togo Retourne,8600,EUR
 Kelly 25,1/2/24,Epsom Sellier,9500,EUR
 Kelly 25,1/2/24,Swift,9000,EUR
@@ -6,11 +6,11 @@ Kelly 25,1/2/24,Mysore Chèvre Sellier,9600,EUR
 Kelly 25,1/2/24,Shiny Crocodile Sellier,42400,EUR
 Kelly 25,3/20/24,Togo Retourne,8600,EUR
 Kelly 25,9/30/24,Chevre/Epsom/Tadelakt Casaque Étoilée,11500,EUR
-Kelly 25,10/21/24,Togo Touch Lizard,120000,RMB
-Kelly 25,10/21/24,Epsom Sellier Touch Croc,150000,RMB
-Kelly 25,10/21/24,Epsom Sellier tri-color,94800,RMB
+Kelly 25,10/21/24,Togo Touch Lizard,120000,CNY
+Kelly 25,10/21/24,Epsom Sellier Touch Croc,150000,CNY
+Kelly 25,10/21/24,Epsom Sellier tri-color,94800,CNY
 Kelly 25,11/12/24,Chevre Chamkila Sellier,9600,EUR
-Kelly 25,12/3/24,Casaque Etoilee,125000,RMB
+Kelly 25,12/3/24,Casaque Etoilee,125000,CNY
 Kelly 28,1/2/24,Epsom Sellier,10300,EUR
 Kelly 28,1/2/24,Togo Retourne,9600,EUR
 Kelly 28,2/16/24,Epsom Sellier,12500,USD
@@ -58,8 +58,8 @@ Birkin 25,8/28/24,Côte à Côte Tuffetage Swift,11800,EUR
 Birkin 25,9/26/24,Box Sellier,12900,EUR
 Birkin 25,9/27/24,Barenia Faubourg,9400,EUR
 Birkin 25,10/6/24,In Go Team Ebene/Dk Choc Swift/Agneau Milo,15300,EUR
-Birkin 25,10/21/24,Go Team Indigo Felt,170000,RMB
-Birkin 25,10/21/24,Swift Quadrille Canvas,96800,RMB
+Birkin 25,10/21/24,Go Team Indigo Felt,170000,CNY
+Birkin 25,10/21/24,Swift Quadrille Canvas,96800,CNY
 Birkin 25,11/16/24,Barenia smooth,11600,EUR
 Birkin 25,11/25/24,Epsom Sellier,12000,USD
 Birkin 25,12/20/24,Birkin 25 Picnic swift leather,24200,USD
@@ -693,10 +693,10 @@ Kelly 35,3/2/22,Epsom ,67800,HKD
 Kelly 35,3/19/22,Shiny Mississippiensis Alligator ,28500,USD
 Kelly 35,4/18/22,Epsom ,8250,USD
 Kelly 35,5/24/22,Epsom,6150,EUR
-Kelly 35,2022-29-06,Lizard,11400,EUR
-Kelly 35,2022-29-08,Chèvres Mysore,6650,EUR
-Kelly 35,2022-13-10,Chevre Mysore ,6480,USD
-Kelly 35,2022-15-10,Epsom ,12400,SGD
+Kelly 35,6/29/22,Lizard,11400,EUR
+Kelly 35,8/29/22,Chèvres Mysore,6650,EUR
+Kelly 35,10/13/22,Chevre Mysore ,6480,USD
+Kelly 35,10/15/22,Epsom ,12400,SGD
 Kelly 35,11/20/22,Casque Espom HKD,82000,USD
 Kelly 35,12/1/22,Box,7550,EUR
 Kelly 35,12/27/22,Box  CNY,96400,USD
@@ -785,8 +785,8 @@ Constance 18,7/8/22,Matte Gator ,30600,USD
 Constance 18,7/10/22,Box ,15000,SGD
 Constance 18,7/22/22,Evercolor,6200,EUR
 Constance 18,8/12/22,Shiny Alligator ,30600,USD
-Constance 18,2022-29-08,Ostrich,12300,EUR
-Constance 18,2022-29-08,Shiny Alligator,22800,EUR
+Constance 18,8/29/22,Ostrich,12300,EUR
+Constance 18,8/29/22,Shiny Alligator,22800,EUR
 Constance 18,9/3/22,Box,7500,EUR
 Constance 18,12/12/22,Epsom Reissue Mirror,6650,EUR
 Constance 18,12/12/22,Epsom Reissue Mirror,9050,USD
@@ -1036,15 +1036,15 @@ Birkin 35,10/23/21,Swift USD,6450,USD
 Birkin 35,11/9/21,Swift ,7550,CAD
 Birkin 35,11/15/21,Swift ,52000,HKD
 Birkin 35,12/8/21,Swift,4750,EUR
-Birkin 35,12/20/21,Clemence  RMB,46500,USD
-Birkin 35,12/25/21,Swift  RMB,49100,USD
+Birkin 35,12/20/21,Clemence  CNY,46500,USD
+Birkin 35,12/25/21,Swift  CNY,49100,USD
 Birkin 35,1/4/21,Clemence ,11535,AUD
 Birkin 35,1/8/21,Clemence ,11200,SGD
 Birkin 35,1/14/21,Clemence /,5600,EUR
 Birkin 35,1/18/21,Swift verso ,63500,HKD
 Birkin 35,5/1/21,Evercolor ,11500,SGD
 Birkin 35,6/24/21,Clemence ,5630,USD
-Birkin 35,7/29/21,Clemence  CDN,8700,USD
+Birkin 35,7/29/21,Clemence  CAD,8700,USD
 Birkin 35,8/12/21,Evercolor ,5750,USD
 Birkin 35,10/17/21,Touch Clemence/Alligator ,13500,SGD
 Birkin 35,11/8/21,Clemence ,61400,HKD
@@ -1061,7 +1061,7 @@ Birkin 35,3/27/21,Clemence CHF,1550,USD
 Birkin 35,4/16/21,Clemence,1330,EUR
 Birkin 35,5/24/21,Maurice ,2750,SGD
 Birkin 35,11/15/21,Clemence ,14600,HKD
-Birkin 35,12/20/21,Clemence  RMB,13750,USD
+Birkin 35,12/20/21,Clemence  CNY,13750,USD
 Birkin 35,1/13/21,Clemence ,4950,SGD
 Birkin 35,1/14/21,Clemence,2490,EUR
 Birkin 35,1/28/21,Clemence ,5130,AUD
@@ -1123,8 +1123,8 @@ Lindy 19,10/23/21,Swift USD,6450,USD
 Lindy 19,11/9/21,Swift ,7550,CAD
 Lindy 19,11/15/21,Swift ,52000,HKD
 Lindy 19,12/8/21,Swift,4750,EUR
-Lindy 19,12/20/21,Clemence,46500,RMB
-Lindy 19,12/25/21,Swift,49100,RMB
+Lindy 19,12/20/21,Clemence,46500,CNY
+Lindy 19,12/25/21,Swift,49100,CNY
 Lindy 26,1/4/21,Clemence ,11535,AUD
 Lindy 26,1/8/21,Clemence ,11200,SGD
 Lindy 26,1/14/21,Clemence,5600,EUR
@@ -1132,7 +1132,7 @@ Lindy 26,1/14/21,Clemence ,5630,USD
 Lindy 26,1/18/21,Swift verso ,63500,HKD
 Lindy 26,5/1/21,Evercolor ,11500,SGD
 Lindy 26,6/24/21,Clemence ,5630,USD
-Lindy 26,7/29/21,Clemence ,8700,CDN
+Lindy 26,7/29/21,Clemence ,8700,CAD
 Lindy 26,8/12/21,Evercolor ,5750,USD
 Lindy 26,10/17/21,Touch Clemence/Alligator ,13500,SGD
 Lindy 26,11/8/21,Clemence ,61400,HKD
@@ -1151,7 +1151,7 @@ Evelyne 16,3/27/21,Clemence CHF,1550,USD
 Evelyne 16,4/16/21,Clemence,1330,EUR
 Evelyne 16,5/24/21,Maurice ,2750,SGD
 Evelyne 16,11/15/21,Clemence ,14600,HKD
-Evelyne 16,12/20/21,Clemence,13750,RMB
+Evelyne 16,12/20/21,Clemence,13750,CNY
 Evelyne 29,1/13/21,Clemence ,4950,SGD
 Evelyne 29,1/14/21,Clemence,2490,EUR
 Evelyne 29,1/28/21,Clemence ,5130,AUD
@@ -1317,7 +1317,7 @@ Evelyne 16,2/1/20,Clémence,1290,USD
 Evelyne 16,2/2/20,Clemence,15100,HKD
 Evelyne 16,2/13/20,Felt & Swift,1575,USD
 Evelyne 16,3/13/20,Clemence,1800,USD
-Evelyne 16,4/20/20,Clémence,13150,RMB
+Evelyne 16,4/20/20,Clémence,13150,CNY
 Evelyne 16,6/29/20,Felt & Swift,1130,USD
 Evelyne 16,7/6/20,Clemence,14500,HKD
 Evelyne 16,8/3/20,Clémence  + tax,2075,CAD
